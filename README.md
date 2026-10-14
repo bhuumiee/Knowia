@@ -70,5 +70,3 @@ Adjust directory names and environment variables to match your actual project st
 Our vision is to turn scattered learning resources into a connected, interactive, and personalized study experience that helps every student learn at their own pace.
 
 ---
-
-Built for the IIT Mandi Multimodal AI Hackathon 2026 — Track D: Personalized Tutoring & Adaptive Learning.

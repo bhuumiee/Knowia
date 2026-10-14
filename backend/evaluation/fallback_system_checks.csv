@@ -1,0 +1,4 @@
+id,in_scope,answer_present,citation_present,expected_source_named,covered_flag,error
+Q1,True,True,True,True,True,
+Q2,True,True,True,True,True,
+Q3,False,True,True,,True,

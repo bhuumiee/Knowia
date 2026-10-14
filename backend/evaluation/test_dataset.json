@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": "Q1",
+    "question": "What is the main function of Microsoft Power BI?",
+    "reference_answer": "Microsoft Power BI transforms raw data into interactive insights through reports and dashboards.",
+    "expected_source": "DF(unit 5).docx",
+    "expected_location": "Introduction to Microsoft Power BI",
+    "is_in_scope": true
+  },
+  {
+    "id": "Q2",
+    "question": "How does data modeling help in Power BI?",
+    "reference_answer": "Power BI data modeling establishes relationships between tables, supports calculations using DAX, and helps organize data for efficient reporting.",
+    "expected_source": "DF(unit 5).docx",
+    "expected_location": "Power BI Data Modeling",
+    "is_in_scope": true
+  },
+  {
+    "id": "Q3",
+    "question": "Explain the stages of photosynthesis in plants.",
+    "reference_answer": null,
+    "expected_source": null,
+    "expected_location": null,
+    "is_in_scope": false
+  }
+]

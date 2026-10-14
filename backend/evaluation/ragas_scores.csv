@@ -1,0 +1,4 @@
+﻿id,question,is_in_scope,faithfulness,answer_relevancy,context_precision,context_recall,scoring_error
+Q1,What is the main function of Microsoft Power BI?,True,0.9,0.8801176821781974,0.9861111110987848,1.0,
+Q2,How does data modeling help in Power BI?,True,0.7272727272727273,0.9640555897507171,0.48214285713080357,1.0,
+Q3,Explain the stages of photosynthesis in plants.,False,0.0,0.9044326162284273,,,

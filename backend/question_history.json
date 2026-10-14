@@ -1,0 +1,86 @@
+{
+  "Knowvia_Image_Diagram_Extraction_Test_2.pdf": [
+    "Based on Figure 1, which structure corresponds to label C?",
+    "According to Figure 2 (Average quiz score by study method), which study method achieved the highest score?",
+    "In the visual-grounding workflow shown in Figure 4, what step comes immediately after \"Extract text + visual regions\"?",
+    "Based on the study method quiz scores in Figure 2, what is the score for the Mixed study method?",
+    "According to the flowchart in Figure 4 (Visual-Grounding Workflow), what is the specified action if evidence is unclear?",
+    "Using the side lengths given in Figure 3 for the triangle (AB = 13 cm, AC = 13 cm, and BC = 10 cm), what is the calculated perimeter?",
+    "Based on the simplified plant cell diagram (Figure 1), which structural component is indicated by label A?",
+    "According to the chart showing average quiz scores by study method (Figure 2), what is the average quiz score achieved using the Video study method?",
+    "In the visual-grounding workflow flowchart (Figure 4), which action is specified if the evidence is unclear?",
+    "Based on the plant cell diagram in Figure 1, which structures are identified specifically by leader lines near the top border of the cell?",
+    "According to the chart of average quiz scores by study method (Figure 2), how many percentage points higher is the score for the Diagrams study method compared to the Reading study method?",
+    "In the visual-grounding workflow flowchart (Figure 4), which of the following best describes the action required when evidence is unclear?"
+  ],
+  "Unit-1 pos.pdf": [
+    "What is the term typically used for the one program running at all times on a computer, with all other programs being application programs?",
+    "In the layered architecture of an operating system, which specific layer corresponds directly to Layer 1?",
+    "Which of the following is given as an example of space multiplexing in operating system resource management?",
+    "Which type of Real-Time Operating System is built for applications where even the shortest possible delay is completely unacceptable, such as automatic parachutes or airbags?",
+    "In a multitasking or time-sharing operating system, what is the fixed time slice allocated to each task called?",
+    "Which type of resource management multiplexing divides resources into portions so that each program gets a part simultaneously, such as partitioning main memory among multiple running programs?",
+    "In a multitasking or time-sharing operating system, what is the fixed time slice allocated to each task in a round-robin manner called?"
+  ],
+  "3rd sem EMS syllabus _4.pdf": [
+    "Which of the following units covers the topic of Municipal Solid Waste and Plastic Pollution?",
+    "Global Warming, Green House Effect, and Acid Rain are studied under which course unit?",
+    "How many Sustainable Development Goals (SDGs) are listed under UNIT III?",
+    "The Air (Prevention and Control of Pollution) Act included in UNIT IV was enacted in which year?",
+    "The Bhopal Gas Tragedy and New Delhi’s Air Pollution are studied under which unit's case studies?"
+  ],
+  "Unit I DLCD_Number Systems.pdf": [
+    "When converting the octal fractional value (.245)8 to decimal, what is the exact sum of the weighted powers of 8 before final summation as shown in the study material?",
+    "In the hexadecimal-to-decimal conversion of (.B2)16, what values are multiplied by 16^-1 and 16^-2 respectively?",
+    "When converting the octal number (524.37)8 to hexadecimal, how many leading and trailing zeros are added to group the intermediate binary bits into 4-bit nibbles?",
+    "When converting the hexadecimal number (A2.7E)16 to octal, how many leading and trailing zeros are added during the binary grouping phase?",
+    "In the fractional decimal-to-octal conversion process for (0.513)10, what are the first two integer products obtained when successively multiplying by 8?"
+  ],
+  "DF(unit 5).docx": [
+    "Which of the following best describes Power BI as a business analytics platform?",
+    "Which primary component of Power BI is primarily used as a desktop development tool for cleaning data and building reports?",
+    "What is the name of the built-in tool in Power BI used for cleaning and preparing raw data?",
+    "Which workspace type in the Power BI Service is designated as a personal space meant for testing and learning, and is not suitable for sharing?",
+    "What serves as the foundation of any Power BI report by containing connected data sources, transformations, and relationships between tables?",
+    "What primary function does the built-in Power Query Editor serve in Power BI Desktop?",
+    "Which of the following Power BI components functions as a cloud-based online platform used to publish reports, control access, and manage dashboards?",
+    "What is considered the foundation of any Power BI report, containing connected data sources, data transformations, and relationships between tables?",
+    "Which workspace type in the Power BI Service is specifically designated as a personal space meant for testing and learning, and is not suitable for sharing?",
+    "Which user role in an organization typically uses Power BI to monitor KPIs and general business performance?",
+    "What primary role does Power BI serve as a business analytics platform in an organization?",
+    "Which of the following components acts as the desktop development tool where users connect to data, clean it, and build reports?",
+    "What is the name of the built-in tool in Power BI Desktop used for cleaning, shaping, and transforming raw data?",
+    "Which building block serves as the foundation of any Power BI report by containing connected data sources, transformations, and relationships between tables?",
+    "Which of the following describes the main function of Power BI as a business analytics platform?",
+    "Which component of Power BI is primarily used as a desktop application to connect to data sources, clean data, and build reports?",
+    "Which specific architectural layer or role does Power BI occupy within an organization's data pipeline?",
+    "When constructing a Power BI semantic model, what foundational elements are established prior to generating reports?",
+    "Regarding the distribution features within the Power BI Service, what is a primary governance advantage of bundling content into an 'App' rather than sharing individual reports directly?",
+    "Which combination of characteristics accurately distinguishes Dashboards from Reports within the Power BI ecosystem?",
+    "In the context of data preparation within Power BI Desktop, what specific role does the built-in Power Query Editor fulfill prior to data modeling?",
+    "Which of the following describes the primary role of a semantic model in Power BI?",
+    "What is the specific purpose of the built-in Power Query Editor within Power BI Desktop?",
+    "When utilizing the Power BI Service, which workspace type is specifically designated as a personal space meant for testing and learning, and is not suitable for sharing?",
+    "Which organizational role is primarily identified as using Power BI to monitor key performance indicators (KPIs) and overall business performance?",
+    "How do dashboards fundamentally differ from interactive reports within the Power BI ecosystem?"
+  ],
+  "SEPM_Unit-2.pptx": [
+    "In an online shopping system, which of the following represents a functional requirement rather than a non-functional requirement?",
+    "Which of the following best describes the primary purpose of a feasibility study in the requirements engineering process?",
+    "During requirements engineering, what is the specific distinction between verification and validation?",
+    "Which of the following characteristics are recognized as essential for good user requirements?",
+    "What does an interface specification formally define or outline in software engineering?",
+    "Which type of feasibility study determines whether the required technology, hardware, software, and technical expertise are available to develop the project?",
+    "In the context of software requirements, which of the following best characterizes non-functional requirements (NFRs)?",
+    "During the requirements engineering process, which task ensures that the software that has been built is traceable to customer requirements?",
+    "Which of the following is considered a key activity in requirements management throughout the software development life cycle?",
+    "What is the primary role of a Software Requirements Specification (SRS) document in software development?"
+  ],
+  "Assignment OOP with C++.pdf": [
+    "Which basic principle of OOP is primarily responsible for wrapping data and functions together into a single class?",
+    "What is the primary role of namespaces in C++?",
+    "How does the compiler distinguish between overloaded functions during compile-time?",
+    "Which special member function is automatically invoked when an object goes out of scope to deallocate resources?",
+    "What is the consequence of declaring at least one pure virtual function within a C++ class?"
+  ]
+}

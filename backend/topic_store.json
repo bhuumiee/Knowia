@@ -1,0 +1,2835 @@
+{
+  "Track D_3.pdf": {
+    "text_length": 6114,
+    "main_topics": [
+      {
+        "topic": "Multimodal Knowledge Base",
+        "subtopics": [
+          {
+            "name": "Content Ingestion and Organization",
+            "key_concepts": [
+              "Ingesting lecture videos, textbooks, and slide decks without manual preprocessing",
+              "Organizing content into topics, concepts, and prerequisites",
+              "Linking every unit to origin points like page, slide number, or video timestamp"
+            ],
+            "tags": [
+              "ingestion",
+              "knowledge-base",
+              "organization"
+            ]
+          },
+          {
+            "name": "Extraction and Grounding",
+            "key_concepts": [
+              "Identifying major topics, subtopics, and key concepts",
+              "Extracting and using information from images, diagrams, and figures",
+              "Explaining concepts and answering questions using cited excerpts"
+            ],
+            "tags": [
+              "extraction",
+              "grounding",
+              "citations"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Adaptive Assessment and Tutoring",
+        "subtopics": [
+          {
+            "name": "Assessment Generation",
+            "key_concepts": [
+              "Generating quizzes and mock exams including MCQ, short answer, and numerical problems",
+              "Tagging questions to topics, source locations, and difficulty levels",
+              "Verifying question correctness and avoiding repeated questions"
+            ],
+            "tags": [
+              "assessment",
+              "quizzes",
+              "verification"
+            ]
+          },
+          {
+            "name": "Feedback and Learner Modeling",
+            "key_concepts": [
+              "Providing cited feedback and post-assessment reports on weak topics and misconceptions",
+              "Maintaining per-topic mastery estimates using Bayesian knowledge tracing, IRT, or spaced repetition",
+              "Handling new students using diagnostic quizzes and intake conversations"
+            ],
+            "tags": [
+              "feedback",
+              "learner-model",
+              "mastery"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "System Evaluation and Enhancements",
+        "subtopics": [
+          {
+            "name": "Pipeline Evaluation",
+            "key_concepts": [
+              "Evaluating retrieval and generation pipelines using RAGAS, DeepEval, or TruLens",
+              "Reporting metrics for faithfulness, answer relevancy, and context precision and recall",
+              "Evaluating personalization using simulated student profiles"
+            ],
+            "tags": [
+              "evaluation",
+              "metrics",
+              "ragas"
+            ]
+          },
+          {
+            "name": "Optional Enhancements",
+            "key_concepts": [
+              "Generating visual course flow maps of topics and prerequisites",
+              "Producing targeted revision material such as flashcards, slides, and audio briefs",
+              "Creating study schedules and supporting mixed-language interaction or audio tutoring"
+            ],
+            "tags": [
+              "enhancements",
+              "scheduling",
+              "multilingual"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "UNIT 2.pdf": {
+    "text_length": 42243,
+    "main_topics": [
+      {
+        "topic": "Control Unit Organization",
+        "subtopics": [
+          {
+            "name": "Control Unit Basics",
+            "key_concepts": [
+              "Directs CPU operation",
+              "Manages computer resources and data flow",
+              "Timing and control signals",
+              "von Neumann architecture"
+            ],
+            "tags": [
+              "control unit",
+              "CPU",
+              "von Neumann"
+            ]
+          },
+          {
+            "name": "Control Unit Block Diagram",
+            "key_concepts": [
+              "Instruction Register (IR)",
+              "3x8 Decoder",
+              "Sequence counter",
+              "Timing signals T0 through T15"
+            ],
+            "tags": [
+              "block diagram",
+              "decoder",
+              "instruction register"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Hardwired Control Unit",
+        "subtopics": [
+          {
+            "name": "Hardwired Control Implementation",
+            "key_concepts": [
+              "Implemented using hardware (NAND gates, flip-flops, counters)",
+              "Physically connects control lines to instructions",
+              "Fast speed and high optimization",
+              "Complex design process and inflexible to new instructions"
+            ],
+            "tags": [
+              "hardwired control",
+              "hardware",
+              "advantages",
+              "disadvantages"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Microprogrammed Control Unit",
+        "subtopics": [
+          {
+            "name": "Microprogramming Basics",
+            "key_concepts": [
+              "Control variables stored in memory as control words",
+              "Microinstructions specify microoperations",
+              "Control memory (CM) typically a ROM",
+              "Flexible and easier to handle complex instruction sets"
+            ],
+            "tags": [
+              "microprogramming",
+              "control word",
+              "microinstruction",
+              "control memory"
+            ]
+          },
+          {
+            "name": "Microprogrammed Control Components",
+            "key_concepts": [
+              "Sequencer",
+              "Control Address Register (CAR)",
+              "Control Data Register (CDR)",
+              "Starting address generator"
+            ],
+            "tags": [
+              "CAR",
+              "CDR",
+              "sequencer",
+              "control memory"
+            ]
+          },
+          {
+            "name": "Address Sequencing",
+            "key_concepts": [
+              "Routines and instruction opcodes",
+              "Sequential retrieval via incrementer",
+              "Branching and mapping logic",
+              "Subroutine branches and conditional branches"
+            ],
+            "tags": [
+              "address sequencing",
+              "mapping logic",
+              "branching"
+            ]
+          },
+          {
+            "name": "Microinstruction Format",
+            "key_concepts": [
+              "Microoperation fields (F1, F2, F3)",
+              "CD field for status bit conditions",
+              "BR field for branch type",
+              "AD field for branch address"
+            ],
+            "tags": [
+              "microinstruction format",
+              "fields",
+              "F1 F2 F3"
+            ]
+          },
+          {
+            "name": "Microprogram Sequencer",
+            "key_concepts": [
+              "Selects next address for CAR",
+              "Internal register stack for looping and subroutines",
+              "Multiplexers (MUX1, MUX2) and input logic circuit"
+            ],
+            "tags": [
+              "microprogram sequencer",
+              "MUX",
+              "CAR"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Comparison of Control Units",
+        "subtopics": [
+          {
+            "name": "Hardwired vs Microprogrammed",
+            "key_concepts": [
+              "Hardwired is faster and costlier with more errors",
+              "Microprogrammed is cheaper, flexible, and uses software-like control",
+              "Hardwired mostly used in RISC, Microprogrammed in mainframes"
+            ],
+            "tags": [
+              "comparison",
+              "hardwired",
+              "microprogrammed",
+              "differences"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Arithmetic and Logic Unit (ALU)",
+        "subtopics": [
+          {
+            "name": "ALU Operations and Structure",
+            "key_concepts": [
+              "Performs arithmetic and logical operations on binary numbers",
+              "Control lines determine operation types (arithmetic vs logical)",
+              "Input registers A and B, output storage register C",
+              "Basic logic gates implementation (AND, OR, EX-OR, NOT)"
+            ],
+            "tags": [
+              "ALU",
+              "arithmetic operations",
+              "logical operations",
+              "registers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "UNIT 2_1.pdf": {
+    "text_length": 42303,
+    "main_topics": [
+      {
+        "topic": "Control Unit Organization",
+        "subtopics": [
+          {
+            "name": "Introduction to Control Unit",
+            "key_concepts": [
+              "Directs operation of processor",
+              "Manages computer resources",
+              "Directs data flow between CPU and other devices",
+              "Part of von Neumann architecture"
+            ],
+            "tags": [
+              "CU",
+              "CPU",
+              "von Neumann architecture"
+            ]
+          },
+          {
+            "name": "Control Unit Block Diagram and Components",
+            "key_concepts": [
+              "Instruction Register (IR)",
+              "Sequence counter",
+              "Decoders",
+              "Control logic gates",
+              "Timing signals T0 through T15"
+            ],
+            "tags": [
+              "IR",
+              "decoder",
+              "sequence counter"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Hardwired Control Unit",
+        "subtopics": [
+          {
+            "name": "Hardwired Control Basics",
+            "key_concepts": [
+              "Physically connects all control lines to machine instructions",
+              "Implemented using hardware components like NAND gates, flip-flops, and counters",
+              "Uses Opcode field, flag register, bus signals, and clock as inputs"
+            ],
+            "tags": [
+              "hardwired control",
+              "hardware implementation"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Microprogrammed Control Unit",
+        "subtopics": [
+          {
+            "name": "Microprogramming Basics",
+            "key_concepts": [
+              "Binary control variables stored in memory",
+              "Control word and microinstructions",
+              "Microprogram sequence",
+              "Control memory (CM)"
+            ],
+            "tags": [
+              "microprogramming",
+              "control memory",
+              "microinstruction"
+            ]
+          },
+          {
+            "name": "Microprogrammed Control Registers and Components",
+            "key_concepts": [
+              "Sequencer",
+              "Control Address Register (CAR)",
+              "Control Data Register (CDR)",
+              "Starting address generator"
+            ],
+            "tags": [
+              "CAR",
+              "CDR",
+              "sequencer"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Comparison of Hardwired and Microprogrammed Control Units",
+        "subtopics": [
+          {
+            "name": "Differences, Advantages, and Disadvantages",
+            "key_concepts": [
+              "Speed versus flexibility",
+              "Cost and chip area",
+              "Design process complexity",
+              "Error occurrence and handling complex instructions"
+            ],
+            "tags": [
+              "hardwired vs microprogrammed",
+              "advantages",
+              "disadvantages"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Control Memory and Address Sequencing",
+        "subtopics": [
+          {
+            "name": "Control Memory Organization",
+            "key_concepts": [
+              "Main memory vs Control memory",
+              "Read-only memory (ROM)",
+              "Routines and microinstructions"
+            ],
+            "tags": [
+              "main memory",
+              "control memory",
+              "ROM"
+            ]
+          },
+          {
+            "name": "Address Sequencing and Mapping",
+            "key_concepts": [
+              "Sequential retrieval and branching",
+              "Conditional and subroutine branches",
+              "Mapping opcodes to microinstruction addresses"
+            ],
+            "tags": [
+              "address sequencing",
+              "mapping logic",
+              "branch logic"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Microinstruction Format and Microoperations",
+        "subtopics": [
+          {
+            "name": "Microinstruction Fields",
+            "key_concepts": [
+              "Microoperation fields (F1, F2, F3)",
+              "CD field for condition status bits",
+              "BR field for branch type",
+              "AD field for branch address"
+            ],
+            "tags": [
+              "microinstruction format",
+              "F1 F2 F3",
+              "CD field",
+              "BR field",
+              "AD field"
+            ]
+          },
+          {
+            "name": "Microoperations",
+            "key_concepts": [
+              "Register transfer statements",
+              "Symbolic microprogram representation"
+            ],
+            "tags": [
+              "microoperations",
+              "register transfer"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Microprogram Sequencer",
+        "subtopics": [
+          {
+            "name": "Sequencer Structure and Operation",
+            "key_concepts": [
+              "Loads CAR for microinstruction execution",
+              "MUX1 and MUX2 selection logic",
+              "Input logic circuit and internal register stack"
+            ],
+            "tags": [
+              "microprogram sequencer",
+              "MUX",
+              "CAR"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Arithmetic and Logic Unit (ALU)",
+        "subtopics": [
+          {
+            "name": "ALU Architecture and Operations",
+            "key_concepts": [
+              "Performs bitwise and mathematical operations",
+              "Arithmetic operations (addition, subtraction, multiplication, division)",
+              "Logical operations (OR, AND, NOT, EX-OR)",
+              "Control lines for operation selection",
+              "Input registers A and B, output register C"
+            ],
+            "tags": [
+              "ALU",
+              "arithmetic operations",
+              "logical operations",
+              "logic gates"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "UNIT 2_2.pdf": {
+    "text_length": 40969,
+    "main_topics": [
+      {
+        "topic": "Control Unit Organization",
+        "subtopics": [
+          {
+            "name": "Control Unit Basics",
+            "key_concepts": [
+              "Directs CPU operations",
+              "Manages computer resources",
+              "Instruction register (IR)",
+              "Sequence counter",
+              "Decoders and control logic gates"
+            ],
+            "tags": [
+              "control unit",
+              "CPU",
+              "architecture"
+            ]
+          },
+          {
+            "name": "Hardwired Control Unit",
+            "key_concepts": [
+              "Implemented using hardware components",
+              "Fast speed",
+              "Uses NAND gates, flip-flops, and counters",
+              "Fixed wiring and control logic"
+            ],
+            "tags": [
+              "hardwired control",
+              "hardware"
+            ]
+          },
+          {
+            "name": "Microprogrammed Control Unit",
+            "key_concepts": [
+              "Control variables stored in control memory",
+              "Control word and microinstructions",
+              "Control Address Register (CAR)",
+              "Control Data Register (CDR)",
+              "Sequencer"
+            ],
+            "tags": [
+              "microprogrammed control",
+              "control memory",
+              "software control"
+            ]
+          },
+          {
+            "name": "Comparison of Control Units",
+            "key_concepts": [
+              "Hardwired vs microprogrammed speed",
+              "Cost and flexibility differences",
+              "Design complexity and error rates"
+            ],
+            "tags": [
+              "comparison",
+              "advantages",
+              "disadvantages"
+            ]
+          },
+          {
+            "name": "Control Memory and Address Sequencing",
+            "key_concepts": [
+              "Main memory vs control memory",
+              "ROM storage for microprograms",
+              "CAR and mapping logic",
+              "Conditional and subroutine branches"
+            ],
+            "tags": [
+              "control memory",
+              "address sequencing",
+              "mapping"
+            ]
+          },
+          {
+            "name": "Microinstruction Format and Operations",
+            "key_concepts": [
+              "Microoperation fields (F1, F2, F3)",
+              "CD field for status bit conditions",
+              "BR field for branch type",
+              "AD field for branch address"
+            ],
+            "tags": [
+              "microinstruction format",
+              "microoperations"
+            ]
+          },
+          {
+            "name": "Microprogram Sequencer",
+            "key_concepts": [
+              "Selects next microinstruction address",
+              "Internal register stack",
+              "MUX1 and MUX2 components",
+              "Input logic circuit"
+            ],
+            "tags": [
+              "sequencer",
+              "address selection"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Arithmetic and Logic Unit (ALU)",
+        "subtopics": [
+          {
+            "name": "ALU Basics and Operations",
+            "key_concepts": [
+              "Performs bitwise and mathematical operations",
+              "Arithmetic operations (addition, subtraction, multiplication, division)",
+              "Logical operations (OR, AND, NOT, EX-OR)",
+              "Control lines for operation selection",
+              "Input registers A and B, output register C"
+            ],
+            "tags": [
+              "ALU",
+              "arithmetic operations",
+              "logical operations",
+              "logic gates"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "UNIT 2_4.pdf": {
+    "text_length": 44113,
+    "main_topics": [
+      {
+        "topic": "Control Unit Organization",
+        "subtopics": [
+          {
+            "name": "Control Unit Basics",
+            "key_concepts": [
+              "Directs CPU operations",
+              "Manages computer resources and data flow",
+              "Includes instruction register, decoders, sequence counter, and control logic gates"
+            ],
+            "tags": [
+              "CU",
+              "CPU",
+              "Instruction Register"
+            ]
+          },
+          {
+            "name": "Hardwired Control Unit",
+            "key_concepts": [
+              "Implemented using physical hardware components like gates and flip-flops",
+              "Uses opcode bits, flag register, bus signals, and clock as inputs",
+              "Faster speed and optimized for performance but less flexible"
+            ],
+            "tags": [
+              "Hardwired Control",
+              "Hardware Logic"
+            ]
+          },
+          {
+            "name": "Microprogrammed Control Unit",
+            "key_concepts": [
+              "Control variables stored in control memory as control words",
+              "Uses microinstructions and microprograms",
+              "Includes Control Address Register (CAR), Control Data Register (CDR), and Sequencer"
+            ],
+            "tags": [
+              "Microprogramming",
+              "Control Memory",
+              "CAR",
+              "CDR"
+            ]
+          },
+          {
+            "name": "Comparison of Control Units",
+            "key_concepts": [
+              "Hardwired is faster and costlier with complex design",
+              "Microprogrammed is cheaper, flexible, and easier to handle complex instructions"
+            ],
+            "tags": [
+              "Hardwired vs Microprogrammed",
+              "Control Unit Comparison"
+            ]
+          },
+          {
+            "name": "Address Sequencing",
+            "key_concepts": [
+              "Sequence microinstructions using incrementers or branching",
+              "Mapping logic translates opcodes to microinstruction addresses",
+              "Supports conditional and subroutine branches"
+            ],
+            "tags": [
+              "Address Sequencing",
+              "Branch Logic",
+              "Mapping Logic"
+            ]
+          },
+          {
+            "name": "Microinstruction Format and Operations",
+            "key_concepts": [
+              "Divided into microoperation fields (F1, F2, F3), CD, BR, and AD fields",
+              "Microoperations defined with register transfer statements"
+            ],
+            "tags": [
+              "Microinstruction Format",
+              "Microoperations"
+            ]
+          },
+          {
+            "name": "Microprogram Sequencer",
+            "key_concepts": [
+              "Loads CAR to read and execute microinstructions",
+              "Uses multiplexers to select source addresses",
+              "Includes internal register stack for looping and subroutine calls"
+            ],
+            "tags": [
+              "Sequencer",
+              "MUX",
+              "CAR"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Arithmetic and Logic Unit (ALU)",
+        "subtopics": [
+          {
+            "name": "ALU Fundamentals",
+            "key_concepts": [
+              "Performs bitwise and mathematical operations on binary numbers",
+              "Comprises arithmetic operations (addition, subtraction, multiplication, division) and logical operations (OR, AND, NOT, EX-OR)",
+              "Uses control lines to select operation groups and specific operations",
+              "Utilizes input registers A and B and output storage register C"
+            ],
+            "tags": [
+              "ALU",
+              "Arithmetic Operations",
+              "Logical Operations",
+              "Logic Gates"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Knowvia_Image_Diagram_Extraction_Test.pdf": {
+    "text_length": 4109,
+    "main_topics": [
+      {
+        "topic": "Diagram Comprehension",
+        "subtopics": [
+          {
+            "name": "Plant Cell Diagram",
+            "key_concepts": [
+              "Simplified plant cell",
+              "Cell wall and cell membrane",
+              "Chloroplast and mitochondrion identification",
+              "Large central vacuole"
+            ],
+            "tags": [
+              "biology",
+              "cell structure",
+              "diagrams"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Chart Reading",
+        "subtopics": [
+          {
+            "name": "Study Method Quiz Scores",
+            "key_concepts": [
+              "Average quiz scores by study method",
+              "Reading, Video, Diagrams, and Mixed methods",
+              "Score comparison and percentage point differences"
+            ],
+            "tags": [
+              "charts",
+              "data analysis",
+              "quiz scores"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Flowchart Reasoning",
+        "subtopics": [
+          {
+            "name": "Visual-Grounding Workflow",
+            "key_concepts": [
+              "Upload PDF or slide deck",
+              "Extract text and visual regions",
+              "Identify labels, shapes, and relationships",
+              "Create grounded answer with citation",
+              "Handling unclear evidence"
+            ],
+            "tags": [
+              "flowchart",
+              "workflow",
+              "educational assistant"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Geometry Figure",
+        "subtopics": [
+          {
+            "name": "Triangle Perimeter and Side Lengths",
+            "key_concepts": [
+              "Given side lengths (AB = 13 cm, AC = 13 cm, BC = 10 cm)",
+              "Perimeter calculation"
+            ],
+            "tags": [
+              "geometry",
+              "triangles",
+              "perimeter"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Grounding and Citation Checks",
+        "subtopics": [
+          {
+            "name": "Testing System Capabilities",
+            "key_concepts": [
+              "Combining visual evidence with grounded answers",
+              "Providing source citations",
+              "Admitting when a detail is not present"
+            ],
+            "tags": [
+              "evaluation",
+              "citations",
+              "grounding"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Knowvia_Image_Diagram_Extraction_Test_1.pdf": {
+    "text_length": 4109,
+    "main_topics": [
+      {
+        "topic": "Diagram Comprehension",
+        "subtopics": [
+          {
+            "name": "Plant Cell Diagram",
+            "key_concepts": [
+              "Simplified plant cell",
+              "Cell wall and cell membrane",
+              "Chloroplast and mitochondrion identification",
+              "Large central vacuole"
+            ],
+            "tags": [
+              "biology",
+              "diagram",
+              "cell structure"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Chart Reading",
+        "subtopics": [
+          {
+            "name": "Study Method Quiz Scores",
+            "key_concepts": [
+              "Average quiz scores by study method",
+              "Reading, Video, Diagrams, and Mixed methods comparison"
+            ],
+            "tags": [
+              "charts",
+              "data analysis",
+              "quiz scores"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Flowchart Reasoning",
+        "subtopics": [
+          {
+            "name": "Visual-Grounding Workflow",
+            "key_concepts": [
+              "Upload PDF or slide deck",
+              "Extract text and visual regions",
+              "Identify labels, shapes, and relationships",
+              "Create grounded answer with citation",
+              "Handling unclear evidence"
+            ],
+            "tags": [
+              "flowchart",
+              "workflow",
+              "educational assistant"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Geometry Figure",
+        "subtopics": [
+          {
+            "name": "Triangle Perimeter and Side Lengths",
+            "key_concepts": [
+              "Given side lengths AB, AC, and BC",
+              "Perimeter calculation"
+            ],
+            "tags": [
+              "geometry",
+              "perimeter",
+              "triangles"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Grounding and Citation Checks",
+        "subtopics": [
+          {
+            "name": "Evidence and Citation Verification",
+            "key_concepts": [
+              "Combining visual evidence with grounded answers",
+              "Using figure citations and page numbers"
+            ],
+            "tags": [
+              "citations",
+              "grounding",
+              "testing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Knowvia_Image_Diagram_Extraction_Test_2.pdf": {
+    "text_length": 4109,
+    "main_topics": [
+      {
+        "topic": "Diagram Comprehension",
+        "subtopics": [
+          {
+            "name": "Plant Cell Diagram",
+            "key_concepts": [
+              "Cell wall",
+              "Cell membrane",
+              "Chloroplast",
+              "Mitochondrion",
+              "Large central vacuole",
+              "Nucleus"
+            ],
+            "tags": [
+              "biology",
+              "plant cell",
+              "diagram"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Chart Reading",
+        "subtopics": [
+          {
+            "name": "Study Method Quiz Scores",
+            "key_concepts": [
+              "Reading score",
+              "Video score",
+              "Diagrams score",
+              "Mixed score"
+            ],
+            "tags": [
+              "chart",
+              "quiz scores",
+              "study methods"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Flowchart Reasoning",
+        "subtopics": [
+          {
+            "name": "Visual-Grounding Workflow",
+            "key_concepts": [
+              "Upload PDF or slide deck",
+              "Extract text and visual regions",
+              "Identify labels, shapes, relationships",
+              "Create grounded answer and citation",
+              "Flag uncertainty"
+            ],
+            "tags": [
+              "flowchart",
+              "workflow",
+              "grounding"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Geometry Figure",
+        "subtopics": [
+          {
+            "name": "Triangle Perimeter",
+            "key_concepts": [
+              "Side lengths AB, AC, and BC",
+              "Perimeter calculation"
+            ],
+            "tags": [
+              "geometry",
+              "triangle",
+              "perimeter"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Grounding and Citation Checks",
+        "subtopics": [
+          {
+            "name": "Evidence and Citations",
+            "key_concepts": [
+              "Combining visual evidence with grounded answers",
+              "Providing figure citations",
+              "Handling missing details"
+            ],
+            "tags": [
+              "citations",
+              "grounding",
+              "testing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "SEPM_Unit-2_3.pptx": {
+    "text_length": 25483,
+    "main_topics": [
+      {
+        "topic": "Software Requirements",
+        "subtopics": [
+          {
+            "name": "Functional and Non-Functional Requirements",
+            "key_concepts": [
+              "Functional requirements define what the system should do",
+              "Non-functional requirements define how the system should perform",
+              "NFR attributes include performance, security, usability, reliability, scalability, maintainability, and portability"
+            ],
+            "tags": [
+              "functional-requirements",
+              "non-functional-requirements"
+            ]
+          },
+          {
+            "name": "User Requirements",
+            "key_concepts": [
+              "Describe functions, features, constraints, and expectations from the user's perspective",
+              "Characteristics include clear, complete, verifiable, feasible, and prioritized",
+              "Gathered via interviews, questionnaires, observation, workshops, and prototyping"
+            ],
+            "tags": [
+              "user-requirements",
+              "elicitation"
+            ]
+          },
+          {
+            "name": "System Requirements and Interface Specification",
+            "key_concepts": [
+              "Specify technical characteristics, architecture, hardware, and software configurations",
+              "Include hardware, software, and interface requirements",
+              "Interface specification defines how software components, systems, or users communicate"
+            ],
+            "tags": [
+              "system-requirements",
+              "interface-specification"
+            ]
+          },
+          {
+            "name": "Software Requirements Specification (SRS)",
+            "key_concepts": [
+              "Detailed blueprint explaining what application must do and how it should perform",
+              "Acts as an agreement between client and development team",
+              "Created by system analysts from stakeholder inputs"
+            ],
+            "tags": [
+              "srs",
+              "documentation"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Requirements Engineering Process",
+        "subtopics": [
+          {
+            "name": "Overview of Requirements Engineering",
+            "key_concepts": [
+              "Systematic process of identifying, eliciting, specifying, documenting, analyzing, validating, and managing requirements",
+              "Four-step process: Feasibility Study, Requirement Gathering, SRS, and Software Requirement Validation"
+            ],
+            "tags": [
+              "requirements-engineering",
+              "process"
+            ]
+          },
+          {
+            "name": "Feasibility Study",
+            "key_concepts": [
+              "Analyzes whether the desired system is feasible to develop",
+              "Types of feasibility: Technical, Economic, Operational, Schedule, and Legal"
+            ],
+            "tags": [
+              "feasibility-study",
+              "types-of-feasibility"
+            ]
+          },
+          {
+            "name": "Requirements Elicitation and Specification",
+            "key_concepts": [
+              "Process of gathering stakeholder needs using interviews, surveys, focus groups, observation, and prototyping",
+              "Specification involves documenting functional, non-functional requirements, constraints, and acceptance criteria"
+            ],
+            "tags": [
+              "elicitation",
+              "specification"
+            ]
+          },
+          {
+            "name": "Requirements Verification, Validation, and Management",
+            "key_concepts": [
+              "Verification ensures software correctly implements functions; validation ensures it meets customer requirements",
+              "Requirements management tracks and controls changes throughout the software development life cycle"
+            ],
+            "tags": [
+              "verification-validation",
+              "requirements-management"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Knowvia_Image_Diagram_Extraction_Test.docx": {
+    "text_length": 3543,
+    "main_topics": [
+      {
+        "topic": "Diagram Comprehension",
+        "subtopics": [
+          {
+            "name": "Plant Cell Diagram Analysis",
+            "key_concepts": [
+              "Structure labels such as C (chloroplast), D (mitochondrion), large central vacuole, cell wall, and cell membrane",
+              "Visual characteristics including shape and color",
+              "Distinction between illustrative representation and real-world cell data"
+            ],
+            "tags": [
+              "plant cell",
+              "diagrams",
+              "visual analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Chart Reading",
+        "subtopics": [
+          {
+            "name": "Study Method Quiz Scores",
+            "key_concepts": [
+              "Comparison of average quiz scores by study method (Reading, Video, Diagrams, Mixed)",
+              "Score calculations and percentage point differences"
+            ],
+            "tags": [
+              "charts",
+              "bar representation",
+              "data comparison"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Flowchart Reasoning",
+        "subtopics": [
+          {
+            "name": "Educational Assistant Workflow",
+            "key_concepts": [
+              "Steps following text and visual region extraction",
+              "Handling unclear evidence by asking clarifying questions or flagging uncertainty",
+              "Final output creation with grounded answers and citations"
+            ],
+            "tags": [
+              "flowchart",
+              "workflow",
+              "grounding"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Geometry Figure",
+        "subtopics": [
+          {
+            "name": "Side Lengths and Perimeter",
+            "key_concepts": [
+              "Given side lengths (13 cm, 13 cm, 10 cm)",
+              "Perimeter calculation",
+              "Equal sides identification (AB and AC)"
+            ],
+            "tags": [
+              "geometry",
+              "perimeter",
+              "side lengths"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Grounding and Citation Checks",
+        "subtopics": [
+          {
+            "name": "Verification Prompts",
+            "key_concepts": [
+              "Combining visual evidence with grounded answers",
+              "Proper figure citation and avoiding guessing when labels are unreadable"
+            ],
+            "tags": [
+              "citations",
+              "grounding",
+              "testing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Unit 4 Sequential Circuits_3.pptx": {
+    "text_length": 48092,
+    "main_topics": [
+      {
+        "topic": "Sequential Circuits",
+        "subtopics": [
+          {
+            "name": "Introduction and Comparison",
+            "key_concepts": [
+              "Feedback path",
+              "Present State and Next State",
+              "Combinational vs Sequential circuits",
+              "Memory elements and clock signals"
+            ],
+            "tags": [
+              "basics",
+              "combinational",
+              "sequential"
+            ]
+          },
+          {
+            "name": "Types of Sequential Circuits",
+            "key_concepts": [
+              "Asynchronous sequential circuits",
+              "Synchronous sequential circuits"
+            ],
+            "tags": [
+              "asynchronous",
+              "synchronous"
+            ]
+          },
+          {
+            "name": "Clock Signal and Triggering",
+            "key_concepts": [
+              "Square wave clock signal",
+              "Level triggering (Positive and Negative level)",
+              "Edge triggering (Positive and Negative edge)",
+              "Conversion of Level to Edge Triggering"
+            ],
+            "tags": [
+              "clock",
+              "triggering",
+              "level-triggering",
+              "edge-triggering"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Memory Elements",
+        "subtopics": [
+          {
+            "name": "Latches and Flip-Flops Overview",
+            "key_concepts": [
+              "Latches (level sensitive)",
+              "Flip-flops (edge sensitive)",
+              "Basic latch using inverters"
+            ],
+            "tags": [
+              "latches",
+              "flip-flops",
+              "memory"
+            ]
+          },
+          {
+            "name": "SR Latch",
+            "key_concepts": [
+              "SR Latch using NOR and NAND gates",
+              "Enable signal",
+              "Forbidden state"
+            ],
+            "tags": [
+              "sr-latch",
+              "nor-latch",
+              "nand-latch"
+            ]
+          },
+          {
+            "name": "D Latch",
+            "key_concepts": [
+              "Data Latch",
+              "Overcoming SR latch drawback"
+            ],
+            "tags": [
+              "d-latch"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Flip-Flops",
+        "subtopics": [
+          {
+            "name": "SR Flip-Flop",
+            "key_concepts": [
+              "Positive and negative clock transitions",
+              "Characteristic and excitation tables",
+              "K-map for Qt+1",
+              "Equation Qt+1 = S + R'Qt"
+            ],
+            "tags": [
+              "sr-flip-flop",
+              "characteristic-table",
+              "excitation-table"
+            ]
+          },
+          {
+            "name": "D Flip-Flop",
+            "key_concepts": [
+              "Characteristic and excitation tables",
+              "K-map for Qt+1",
+              "Equation Qt+1 = D"
+            ],
+            "tags": [
+              "d-flip-flop"
+            ]
+          },
+          {
+            "name": "JK Flip-Flop",
+            "key_concepts": [
+              "Modified version of SR flip-flop",
+              "Characteristic and excitation tables",
+              "Equation Qt+1 = JQt' + K'Qt"
+            ],
+            "tags": [
+              "jk-flip-flop"
+            ]
+          },
+          {
+            "name": "T Flip-Flop",
+            "key_concepts": [
+              "Implementation by joining JK inputs",
+              "Characteristic and excitation tables",
+              "Equation Qt+1 = T ⊕ Qt"
+            ],
+            "tags": [
+              "t-flip-flop"
+            ]
+          },
+          {
+            "name": "Race Around Condition",
+            "key_concepts": [
+              "Multiple toggling in JK latch",
+              "Edge-triggered JK flip-flop",
+              "Master-Slave JK flip-flop",
+              "Master and slave operation and waveforms"
+            ],
+            "tags": [
+              "race-around-condition",
+              "master-slave"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Flip-Flop Conversion",
+        "subtopics": [
+          {
+            "name": "Conversion Steps",
+            "key_concepts": [
+              "Steps for converting one flip-flop to another",
+              "Clubbed excitation table",
+              "Simplified expressions using K-maps",
+              "Circuit diagram realization"
+            ],
+            "tags": [
+              "conversion",
+              "k-map"
+            ]
+          },
+          {
+            "name": "Specific Conversions",
+            "key_concepts": [
+              "SR-FF to D-FF conversion",
+              "D-FF to T-FF conversion"
+            ],
+            "tags": [
+              "sr-to-d",
+              "d-to-t"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Unit 4 Sequential Circuits_4.pptx": {
+    "text_length": 12157,
+    "main_topics": [
+      {
+        "topic": "Introduction to Sequential Circuits",
+        "subtopics": [
+          {
+            "name": "Fundamentals of Sequential Circuits",
+            "key_concepts": [
+              "Memory element and feedback path",
+              "Present state and next state",
+              "Comparison with combinational circuits"
+            ],
+            "tags": [
+              "sequential circuits",
+              "feedback",
+              "memory"
+            ]
+          },
+          {
+            "name": "Types and Triggering",
+            "key_concepts": [
+              "Asynchronous and synchronous sequential circuits",
+              "Clock signal",
+              "Level triggering",
+              "Edge triggering"
+            ],
+            "tags": [
+              "triggering",
+              "clock signal",
+              "synchronous"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Memory Elements",
+        "subtopics": [
+          {
+            "name": "Latches",
+            "key_concepts": [
+              "Basic latch",
+              "SR Latch (NOR and NAND)",
+              "D Latch"
+            ],
+            "tags": [
+              "latches",
+              "SR latch",
+              "D latch"
+            ]
+          },
+          {
+            "name": "Flip-Flops",
+            "key_concepts": [
+              "SR Flip-Flop",
+              "D Flip-Flop",
+              "JK Flip-Flop",
+              "T Flip-Flop",
+              "Characteristic and excitation tables"
+            ],
+            "tags": [
+              "flip-flops",
+              "characteristic table",
+              "excitation table"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Advanced Flip-Flop Concepts and Conversion",
+        "subtopics": [
+          {
+            "name": "Race Around Condition",
+            "key_concepts": [
+              "Race around condition in JK flip-flops",
+              "Edge-triggered JK flip-flop",
+              "Master-Slave JK Flip-Flop"
+            ],
+            "tags": [
+              "race around condition",
+              "master-slave",
+              "JK flip-flop"
+            ]
+          },
+          {
+            "name": "Flip-Flop Conversion",
+            "key_concepts": [
+              "Conversion steps",
+              "SR to D flip-flop conversion",
+              "D to T flip-flop conversion"
+            ],
+            "tags": [
+              "conversion",
+              "K-map",
+              "logic design"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Unit I DLCD_Number Systems.pdf": {
+    "text_length": 3573,
+    "main_topics": [
+      {
+        "topic": "Digital Logic and Circuit Design Basics",
+        "subtopics": [
+          {
+            "name": "Signals and Systems",
+            "key_concepts": [
+              "Analog Signal",
+              "Sampled Value",
+              "Digital Signal",
+              "Analog System",
+              "Systems using Digital and Analog Methods"
+            ],
+            "tags": [
+              "signals",
+              "analog",
+              "digital"
+            ]
+          },
+          {
+            "name": "Advantages of Digital",
+            "key_concepts": [
+              "Efficient processing and transmission",
+              "Storage capabilities and accuracy",
+              "Resistance to noise and unwanted voltage fluctuations"
+            ],
+            "tags": [
+              "advantages",
+              "digital data"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Number Systems",
+        "subtopics": [
+          {
+            "name": "Introduction to Number Systems",
+            "key_concepts": [
+              "Systematic way to represent and manipulate numbers",
+              "Decimal number system",
+              "Roman number system",
+              "Binary number system",
+              "Octal number system",
+              "Hexadecimal number system",
+              "Radix Based Number System"
+            ],
+            "tags": [
+              "number systems",
+              "radix"
+            ]
+          },
+          {
+            "name": "Octal Conversions",
+            "key_concepts": [
+              "Octal to Decimal Conversion",
+              "Decimal to Octal Conversion",
+              "Integer and Fractional Part Conversion"
+            ],
+            "tags": [
+              "octal",
+              "decimal",
+              "conversion"
+            ]
+          },
+          {
+            "name": "Hexadecimal Conversions",
+            "key_concepts": [
+              "Hexadecimal to Decimal Conversion",
+              "Decimal to Hexadecimal Conversion",
+              "Integer and Fractional Part Conversion"
+            ],
+            "tags": [
+              "hexadecimal",
+              "decimal",
+              "conversion"
+            ]
+          },
+          {
+            "name": "Octal and Hexadecimal Interconversions",
+            "key_concepts": [
+              "Octal to Hexadecimal Conversion using Binary",
+              "Hexadecimal to Octal Conversion using Binary",
+              "Adding leading and trailing zeros"
+            ],
+            "tags": [
+              "octal",
+              "hexadecimal",
+              "binary",
+              "conversion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "UNIT 1.pdf": {
+    "text_length": 51594,
+    "main_topics": [
+      {
+        "topic": "Computer Basics and CPU",
+        "subtopics": [
+          {
+            "name": "Computer Types",
+            "key_concepts": [
+              "Personal computers",
+              "Note book computers",
+              "Work stations",
+              "Enterprise / Mainframe systems",
+              "Super computers"
+            ],
+            "tags": [
+              "computer-types",
+              "hardware"
+            ]
+          },
+          {
+            "name": "Functional Units",
+            "key_concepts": [
+              "Input unit",
+              "Memory unit",
+              "Arithmetic logic unit (ALU)",
+              "Output unit",
+              "Control unit"
+            ],
+            "tags": [
+              "functional-units",
+              "architecture"
+            ]
+          },
+          {
+            "name": "The von Neumann Computer Model",
+            "key_concepts": [
+              "Central processing unit (CPU)",
+              "Memory",
+              "Input/output devices (I/O)",
+              "System bus",
+              "Control unit"
+            ],
+            "tags": [
+              "von-neumann",
+              "architecture"
+            ]
+          },
+          {
+            "name": "System Bus",
+            "key_concepts": [
+              "Control bus",
+              "Address bus",
+              "Data bus"
+            ],
+            "tags": [
+              "system-bus",
+              "communication"
+            ]
+          },
+          {
+            "name": "CPU and Memory Registers",
+            "key_concepts": [
+              "Memory Address Register (MAR)",
+              "Program Counter (PC)",
+              "Accumulator Register (AC)",
+              "Memory Data Register (MDR)",
+              "Index Register",
+              "Memory Buffer Register (MBR)",
+              "Data Register"
+            ],
+            "tags": [
+              "registers",
+              "cpu-memory"
+            ]
+          },
+          {
+            "name": "Microoperations",
+            "key_concepts": [
+              "Low-level instructions",
+              "Register data transfer",
+              "Arithmetic and logical operations",
+              "Fetch-decode-execute cycle"
+            ],
+            "tags": [
+              "micro-operations",
+              "cpu-execution"
+            ]
+          },
+          {
+            "name": "Register Transfer Language",
+            "key_concepts": [
+              "Symbolic form of microoperation sequences",
+              "Register notation",
+              "Basic symbols for register transfer"
+            ],
+            "tags": [
+              "rtl",
+              "notation"
+            ]
+          },
+          {
+            "name": "Instruction Cycle",
+            "key_concepts": [
+              "Fetch-decode-execute cycle",
+              "Program instruction retrieval",
+              "Sequential instruction processing"
+            ],
+            "tags": [
+              "instruction-cycle",
+              "execution"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "C++.Primer.5th.Edition_2013.pdf": {
+    "text_length": 2239793,
+    "main_topics": [
+      {
+        "topic": "Getting Started",
+        "subtopics": [
+          {
+            "name": "Writing and Executing a Simple C++ Program",
+            "key_concepts": [
+              "Compiling and executing programs",
+              "Input/output with streams"
+            ],
+            "tags": [
+              "basics",
+              "compilation"
+            ]
+          },
+          {
+            "name": "Flow of Control and Classes",
+            "key_concepts": [
+              "while, for, and if statements",
+              "Reading unknown numbers of inputs",
+              "Introduction to classes and member functions"
+            ],
+            "tags": [
+              "control-flow",
+              "classes"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Variables and Basic Types",
+        "subtopics": [
+          {
+            "name": "Primitive Built-in Types and Variables",
+            "key_concepts": [
+              "Arithmetic types",
+              "Type conversions and literals",
+              "Variable definitions, declarations, identifiers, and scope"
+            ],
+            "tags": [
+              "types",
+              "variables"
+            ]
+          },
+          {
+            "name": "Compound Types and Qualifiers",
+            "key_concepts": [
+              "References and pointers",
+              "const qualifier",
+              "constexpr and constant expressions"
+            ],
+            "tags": [
+              "pointers",
+              "references",
+              "const"
+            ]
+          },
+          {
+            "name": "Dealing with Types and Custom Data Structures",
+            "key_concepts": [
+              "Type aliases, auto, and decltype",
+              "Defining custom data structures and header files"
+            ],
+            "tags": [
+              "type-deduction",
+              "structs"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Strings, Vectors, and Arrays",
+        "subtopics": [
+          {
+            "name": "Library string and vector Types",
+            "key_concepts": [
+              "Namespace using declarations",
+              "string operations and character handling",
+              "vector definition, initialization, and operations"
+            ],
+            "tags": [
+              "string",
+              "vector"
+            ]
+          },
+          {
+            "name": "Iterators and Arrays",
+            "key_concepts": [
+              "Using iterators and iterator arithmetic",
+              "Built-in arrays, pointers, and C-style character strings",
+              "Multidimensional arrays"
+            ],
+            "tags": [
+              "iterators",
+              "arrays"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Expressions",
+        "subtopics": [
+          {
+            "name": "Operators and Conversions",
+            "key_concepts": [
+              "Precedence, associativity, and order of evaluation",
+              "Arithmetic, logical, relational, assignment, and increment/decrement operators",
+              "Member access, conditional, bitwise, sizeof, and comma operators",
+              "Type conversions and explicit conversions"
+            ],
+            "tags": [
+              "operators",
+              "expressions"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Statements",
+        "subtopics": [
+          {
+            "name": "Statement Flow and Exception Handling",
+            "key_concepts": [
+              "Statement scope and conditional statements (if, switch)",
+              "Iterative statements (while, for, range for, do-while)",
+              "Jump statements (break, continue, goto)",
+              "try blocks, throw expressions, and standard exceptions"
+            ],
+            "tags": [
+              "statements",
+              "exceptions"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Functions",
+        "subtopics": [
+          {
+            "name": "Function Basics and Argument Passing",
+            "key_concepts": [
+              "Local objects, function declarations, and separate compilation",
+              "Passing by value, reference, and const parameters",
+              "Array parameters, main function, and varying parameters"
+            ],
+            "tags": [
+              "functions",
+              "parameters"
+            ]
+          },
+          {
+            "name": "Return Types, Overloading, and Special Features",
+            "key_concepts": [
+              "Return types and the return statement",
+              "Overloaded functions and scope",
+              "Default arguments, inline/constexpr functions, and function matching",
+              "Pointers to functions"
+            ],
+            "tags": [
+              "overloading",
+              "pointers-to-functions"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Classes",
+        "subtopics": [
+          {
+            "name": "Defining Abstract Data Types",
+            "key_concepts": [
+              "Designing and defining classes",
+              "Nonmember class-related functions",
+              "Constructors, copy, assignment, and destruction"
+            ],
+            "tags": [
+              "classes",
+              "constructors"
+            ]
+          },
+          {
+            "name": "Access Control, Class Features, and Scope",
+            "key_concepts": [
+              "Encapsulation and friends",
+              "Class scope and name lookup",
+              "Constructor initializers, delegating constructors, and static members"
+            ],
+            "tags": [
+              "encapsulation",
+              "scope",
+              "static"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "The C++ Library",
+        "subtopics": [
+          {
+            "name": "The IO Library",
+            "key_concepts": [
+              "IO classes, condition states, and output buffer management",
+              "File input and output",
+              "String streams"
+            ],
+            "tags": [
+              "io",
+              "streams"
+            ]
+          },
+          {
+            "name": "Sequential Containers",
+            "key_concepts": [
+              "Sequential container overview and operations",
+              "Vector growth and additional string operations",
+              "Container adaptors"
+            ],
+            "tags": [
+              "containers",
+              "sequential-containers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Unit-1 pos.pdf": {
+    "text_length": 36748,
+    "main_topics": [
+      {
+        "topic": "Introduction to Operating System",
+        "subtopics": [
+          {
+            "name": "Definition and Role",
+            "key_concepts": [
+              "Intermediary between user and hardware",
+              "Kernel",
+              "Resource allocation and services",
+              "Backbone of a computer system"
+            ],
+            "tags": [
+              "introduction",
+              "kernel",
+              "hardware-software interface"
+            ]
+          },
+          {
+            "name": "Need for an Operating System",
+            "key_concepts": [
+              "Interface",
+              "Resource Management",
+              "Process Management",
+              "Memory Management",
+              "File Management",
+              "Device Management",
+              "Security and Protection",
+              "Multitasking",
+              "Error Detection and Recovery",
+              "Convenience"
+            ],
+            "tags": [
+              "OS functions",
+              "resource management",
+              "security"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Layered Architecture of Operating System",
+        "subtopics": [
+          {
+            "name": "Logical Structure and Layers",
+            "key_concepts": [
+              "Layer 0: Hardware",
+              "Layer 1: CPU Scheduling",
+              "Layer 2: Memory Management",
+              "Layer 3: Process Management",
+              "Layer 4: I/O Buffer",
+              "Layer 5: User Programs"
+            ],
+            "tags": [
+              "architecture",
+              "layers",
+              "modularity"
+            ]
+          },
+          {
+            "name": "Advantages and Disadvantages",
+            "key_concepts": [
+              "Modularity",
+              "Easy debugging",
+              "Easy update",
+              "Abstraction",
+              "Complex implementation",
+              "Slower in execution"
+            ],
+            "tags": [
+              "architecture pros/cons",
+              "debugging"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Types of Operating Systems",
+        "subtopics": [
+          {
+            "name": "Batch Operating System",
+            "key_concepts": [
+              "Handles large groups of similar jobs",
+              "Minimal idle time",
+              "Sequential processing",
+              "Inefficient CPU utilization during I/O"
+            ],
+            "tags": [
+              "batch OS",
+              "throughput"
+            ]
+          },
+          {
+            "name": "Multi-Programming Operating System",
+            "key_concepts": [
+              "Multiple programs in memory concurrently",
+              "Better CPU utilization",
+              "Complex design and memory management"
+            ],
+            "tags": [
+              "multiprogramming",
+              "CPU scheduling"
+            ]
+          },
+          {
+            "name": "Multi-tasking/Time-sharing Operating Systems",
+            "key_concepts": [
+              "Round-robin manner",
+              "Time slice or quantum",
+              "Equal CPU access"
+            ],
+            "tags": [
+              "multitasking",
+              "time-sharing",
+              "quantum"
+            ]
+          },
+          {
+            "name": "Multi-Processing Operating System",
+            "key_concepts": [
+              "More than one CPU used",
+              "Faster processing",
+              "High reliability and fault tolerance"
+            ],
+            "tags": [
+              "multiprocessing",
+              "multiple CPUs"
+            ]
+          },
+          {
+            "name": "Distributed Operating System",
+            "key_concepts": [
+              "Connects multiple independent computers",
+              "Shared communication network",
+              "Remote access"
+            ],
+            "tags": [
+              "distributed OS",
+              "network"
+            ]
+          },
+          {
+            "name": "Network Operating System",
+            "key_concepts": [
+              "Runs on a server",
+              "Manages data, users, and security",
+              "Tightly coupled systems"
+            ],
+            "tags": [
+              "network OS",
+              "server"
+            ]
+          },
+          {
+            "name": "Real-Time Operating System",
+            "key_concepts": [
+              "Strict response time",
+              "Hard Real-Time Systems",
+              "Soft Real-Time Systems"
+            ],
+            "tags": [
+              "RTOS",
+              "hard real-time",
+              "soft real-time"
+            ]
+          },
+          {
+            "name": "Mobile Operating Systems",
+            "key_concepts": [
+              "Designed for smartphones and tablets",
+              "Android and iOS",
+              "User-friendly interfaces"
+            ],
+            "tags": [
+              "mobile OS",
+              "Android",
+              "iOS"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "3rd sem EMS syllabus _4.pdf": {
+    "text_length": 5735,
+    "main_topics": [
+      {
+        "topic": "Environment Pollution and Control",
+        "subtopics": [
+          {
+            "name": "Pollution Types and Waste Management",
+            "key_concepts": [
+              "Air, Water, and Soil Pollution Causes, Effects and Control measures",
+              "Municipal Solid Waste Definition, Composition, Effects",
+              "Electronic Waste Definition, Composition, Effects",
+              "Plastic Pollution Causes, Effects and Control Measures"
+            ],
+            "tags": [
+              "pollution",
+              "waste",
+              "solid waste",
+              "e-waste",
+              "plastic"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Climate Change and Environmental Challenges",
+        "subtopics": [
+          {
+            "name": "Global and Environmental Hazards",
+            "key_concepts": [
+              "Global Warming and Green House Effect",
+              "Depletion of the Ozone Layer",
+              "Acid Rain",
+              "Nuclear Hazards"
+            ],
+            "tags": [
+              "climate change",
+              "global warming",
+              "ozone layer",
+              "acid rain",
+              "nuclear hazards"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Environmental Management and Sustainable Development",
+        "subtopics": [
+          {
+            "name": "Sustainability and Friendly Practices",
+            "key_concepts": [
+              "Environmental Management and Sustainable Development overview",
+              "Sustainable Development Goals (17 SDGs)",
+              "Significance of Sustainable Development",
+              "Environment Friendly Practices At Workplace and Home (Three Rs’ of Waste Management, Water Conservation, Energy Conservation)"
+            ],
+            "tags": [
+              "sustainable development",
+              "SDGs",
+              "waste management",
+              "water conservation",
+              "energy conservation"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Environmental Acts",
+        "subtopics": [
+          {
+            "name": "Legal Framework and Assessment",
+            "key_concepts": [
+              "The Water (Prevention and Control of Pollution) Act, 1974",
+              "The Air (Prevention and Control of Pollution) Act, 1981",
+              "The Environment (Protection) Act, 1986",
+              "Environmental Impact Assessment Concept and Benefits"
+            ],
+            "tags": [
+              "environmental acts",
+              "Water Act",
+              "Air Act",
+              "Environment Protection Act",
+              "EIA"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Role of Individuals, Corporate and Society",
+        "subtopics": [
+          {
+            "name": "Values, Technology, and Case Studies",
+            "key_concepts": [
+              "Environmental Values",
+              "Positive and Adverse Impact of Technological Developments on Society and Environment",
+              "Role of an individual/ Corporate/ Society in environmental conservation",
+              "Case Studies: The Bhopal Gas Tragedy, New Delhi’s Air Pollution, Arsenic Pollution in Ground Water (West Bengal), Narmada Valley Project, Cauvery Water Dispute, Fukushima Daiichi Disaster (Japan), Ozone Hole over Antarctica, Ganga Pollution, Deterioration of TajMahal, Uttarakhand flash floods"
+            ],
+            "tags": [
+              "environmental values",
+              "technology impact",
+              "conservation",
+              "case studies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "DF(unit 5).docx": {
+    "text_length": 11965,
+    "main_topics": [
+      {
+        "topic": "Introduction to Microsoft Power BI",
+        "subtopics": [
+          {
+            "name": "Overview and Core Capabilities",
+            "key_concepts": [
+              "Decision-making engine",
+              "Cloud-based business analytics platform",
+              "Connect to multiple data sources",
+              "Prepare and transform data",
+              "Build interactive reports and dashboards",
+              "Share insights across an organization",
+              "Data preparation",
+              "Data visualization",
+              "Data modeling",
+              "Distribution and sharing",
+              "Management and governance"
+            ],
+            "tags": [
+              "Power BI",
+              "business intelligence",
+              "analytics"
+            ]
+          },
+          {
+            "name": "Scalability and Importance",
+            "key_concepts": [
+              "Small scale and large scale flexibility",
+              "Data-driven decision making",
+              "Actionable insights"
+            ],
+            "tags": [
+              "scalability",
+              "importance"
+            ]
+          },
+          {
+            "name": "Users and Organizational Role",
+            "key_concepts": [
+              "Data analysts",
+              "Business managers",
+              "Executives",
+              "Final layer of the data pipeline"
+            ],
+            "tags": [
+              "users",
+              "organization"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Primary Components of Power BI",
+        "subtopics": [
+          {
+            "name": "Power BI Desktop",
+            "key_concepts": [
+              "Development tool",
+              "Connect to data sources",
+              "Clean and transform data",
+              "Build data models",
+              "Create reports and visualizations"
+            ],
+            "tags": [
+              "Power BI Desktop",
+              "development"
+            ]
+          },
+          {
+            "name": "Power BI Service",
+            "key_concepts": [
+              "Online cloud-based platform",
+              "Publish reports",
+              "Share reports and manage dashboards",
+              "Control access and security"
+            ],
+            "tags": [
+              "Power BI Service",
+              "cloud platform"
+            ]
+          },
+          {
+            "name": "Power BI Mobile",
+            "key_concepts": [
+              "Mobile app for Android and iOS",
+              "View reports and dashboards on the go"
+            ],
+            "tags": [
+              "Power BI Mobile",
+              "mobile app"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Power BI Workflow and Building Blocks",
+        "subtopics": [
+          {
+            "name": "Step-by-Step Process",
+            "key_concepts": [
+              "Connect to data",
+              "Transform data using Power Query Editor",
+              "Model data",
+              "Create visualizations and reports",
+              "Publish to Power BI Service",
+              "Distribute and manage reports"
+            ],
+            "tags": [
+              "workflow",
+              "process"
+            ]
+          },
+          {
+            "name": "Semantic Model",
+            "key_concepts": [
+              "Foundation of Power BI",
+              "Connected data from multiple sources",
+              "Data transformations",
+              "Relationships between tables",
+              "Calculations using measures and calculated columns"
+            ],
+            "tags": [
+              "semantic model",
+              "data modeling"
+            ]
+          },
+          {
+            "name": "Visualizations and Reports",
+            "key_concepts": [
+              "Bar, line, and pie charts",
+              "Tables and KPIs",
+              "Low-code experience",
+              "Interactivity and filtering"
+            ],
+            "tags": [
+              "visualizations",
+              "reports"
+            ]
+          },
+          {
+            "name": "Dashboards",
+            "key_concepts": [
+              "Single-page view of key insights",
+              "Tiles",
+              "High-level overview"
+            ],
+            "tags": [
+              "dashboards"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Tour and Use of the Power BI Service",
+        "subtopics": [
+          {
+            "name": "Workspaces",
+            "key_concepts": [
+              "My Workspace",
+              "Shared Workspaces for team collaboration"
+            ],
+            "tags": [
+              "workspaces",
+              "collaboration"
+            ]
+          },
+          {
+            "name": "Apps and Template Apps",
+            "key_concepts": [
+              "Packaged collection of reports and dashboards",
+              "Template apps for quick solutions"
+            ],
+            "tags": [
+              "apps",
+              "template apps",
+              "distribution"
+            ]
+          },
+          {
+            "name": "Refreshing Semantic Models",
+            "key_concepts": [
+              "Scheduled refresh",
+              "On-demand refresh",
+              "Keeping reports accurate"
+            ],
+            "tags": [
+              "refresh",
+              "semantic models"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "SEPM_Unit-2.pptx": {
+    "text_length": 23171,
+    "main_topics": [
+      {
+        "topic": "Software Requirements",
+        "subtopics": [
+          {
+            "name": "Functional and Non-Functional Requirements",
+            "key_concepts": [
+              "Functional Requirements define what the system should do",
+              "Non-Functional Requirements define how the system should perform",
+              "Performance, security, usability, reliability, scalability, maintainability, and portability"
+            ],
+            "tags": [
+              "requirements",
+              "functional",
+              "non-functional"
+            ]
+          },
+          {
+            "name": "User Requirements",
+            "key_concepts": [
+              "Describe functions, features, and expectations from the user perspective",
+              "Characteristics of good user requirements include clarity, completeness, verifiability, and feasibility",
+              "Gathered through interviews, questionnaires, observation, workshops, and prototyping"
+            ],
+            "tags": [
+              "user requirements",
+              "elicitation"
+            ]
+          },
+          {
+            "name": "System Requirements",
+            "key_concepts": [
+              "Technical characteristics of the software system",
+              "Hardware requirements (processor, RAM, storage)",
+              "Software requirements (OS, database, web server)",
+              "Interface requirements"
+            ],
+            "tags": [
+              "system requirements",
+              "hardware",
+              "software",
+              "interfaces"
+            ]
+          },
+          {
+            "name": "Interface Specification",
+            "key_concepts": [
+              "Formal agreement or contract defining how components communicate",
+              "Rules for data exchange and frontend website layout"
+            ],
+            "tags": [
+              "interface specification",
+              "frontend"
+            ]
+          },
+          {
+            "name": "Software Requirements Specification (SRS)",
+            "key_concepts": [
+              "Detailed blueprint explaining application functionality and performance",
+              "Agreement between client and development team created by system analysts"
+            ],
+            "tags": [
+              "SRS",
+              "documentation"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Requirements Engineering Process",
+        "subtopics": [
+          {
+            "name": "Process Overview",
+            "key_concepts": [
+              "Systematic process of identifying, eliciting, specifying, analyzing, validating, and managing requirements",
+              "Four-step process: Feasibility Study, Requirement Gathering, SRS, and Validation"
+            ],
+            "tags": [
+              "requirements engineering",
+              "process"
+            ]
+          },
+          {
+            "name": "Feasibility Study",
+            "key_concepts": [
+              "Analyzes whether the desired system is feasible to develop",
+              "Technical, economic, operational, schedule, and legal feasibility"
+            ],
+            "tags": [
+              "feasibility study",
+              "cost",
+              "technical feasibility"
+            ]
+          },
+          {
+            "name": "Requirements Elicitation",
+            "key_concepts": [
+              "Gathering information about stakeholder needs and expectations",
+              "Techniques include interviews, surveys, focus groups, observation, and prototyping"
+            ],
+            "tags": [
+              "elicitation",
+              "interviews",
+              "prototyping"
+            ]
+          },
+          {
+            "name": "Requirements Specification",
+            "key_concepts": [
+              "Documenting functional, non-functional requirements, and constraints",
+              "Models include ER diagrams, DFDs, and data dictionaries"
+            ],
+            "tags": [
+              "specification",
+              "constraints"
+            ]
+          },
+          {
+            "name": "Requirements Verification and Validation (V&V)",
+            "key_concepts": [
+              "Verification ensures software implements a specific function correctly",
+              "Validation ensures software is traceable to customer requirements",
+              "Ensures requirements are consistent, complete, and achievable"
+            ],
+            "tags": [
+              "verification",
+              "validation",
+              "V&V"
+            ]
+          },
+          {
+            "name": "Requirements Management",
+            "key_concepts": [
+              "Managing requirements throughout the software development life cycle",
+              "Tracking and controlling changes, version control, traceability, and communication"
+            ],
+            "tags": [
+              "requirements management",
+              "version control",
+              "traceability"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Assignment OOP with C++.pdf": {
+    "text_length": 95741,
+    "main_topics": [
+      {
+        "topic": "Concepts of OOP & C++ Basics",
+        "subtopics": [
+          {
+            "name": "Procedural vs Object-Oriented Programming",
+            "key_concepts": [
+              "Procedural focuses on sequence of steps and functions",
+              "OOP focuses on objects combining data and behavior",
+              "Data security and bottom-up approach in OOP"
+            ],
+            "tags": [
+              "OOP",
+              "Procedural Programming",
+              "Paradigm"
+            ]
+          },
+          {
+            "name": "Basic Principles of OOP",
+            "key_concepts": [
+              "Encapsulation wraps data and functions into a class",
+              "Abstraction hides implementation details",
+              "Inheritance reuses properties of existing classes",
+              "Polymorphism provides one interface with multiple forms"
+            ],
+            "tags": [
+              "Encapsulation",
+              "Abstraction",
+              "Inheritance",
+              "Polymorphism"
+            ]
+          },
+          {
+            "name": "Benefits of OOP",
+            "key_concepts": [
+              "Improved code reusability",
+              "Easier maintenance and enhanced data security",
+              "Direct mapping of real-world entities to code"
+            ],
+            "tags": [
+              "Software Development",
+              "Reusability"
+            ]
+          },
+          {
+            "name": "C++ Program Structure and Namespaces",
+            "key_concepts": [
+              "Typical structure includes header files, namespace declarations, class definitions, and main function",
+              "Namespaces act as containers to prevent name collisions"
+            ],
+            "tags": [
+              "Structure",
+              "Namespace"
+            ]
+          },
+          {
+            "name": "Data Types, Variables, and Constants",
+            "key_concepts": [
+              "Identifiers, variables, and constants naming rules",
+              "Built-in data types include int, float, double, char, and bool",
+              "Enum provides user-defined type for named integer constants"
+            ],
+            "tags": [
+              "Data Types",
+              "Variables",
+              "Enum"
+            ]
+          },
+          {
+            "name": "Type Casting and Control Structures",
+            "key_concepts": [
+              "Implicit casting is done automatically by the compiler",
+              "Explicit casting is done manually by the user",
+              "Control structures include selection (if-else, switch-case) and iteration (for, while, do-while)"
+            ],
+            "tags": [
+              "Type Casting",
+              "Control Structures"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "C++ Functions",
+        "subtopics": [
+          {
+            "name": "Function Basics and Prototyping",
+            "key_concepts": [
+              "main() function serves as the entry point and returns an integer",
+              "Function prototyping informs the compiler about name, return type, and parameters"
+            ],
+            "tags": [
+              "main function",
+              "Function Prototyping"
+            ]
+          },
+          {
+            "name": "Argument Passing and References",
+            "key_concepts": [
+              "Call by reference passes the address of an argument",
+              "Return by reference allows assignment to the left side"
+            ],
+            "tags": [
+              "Call by Reference",
+              "Return by Reference"
+            ]
+          },
+          {
+            "name": "Inline Functions and Macros",
+            "key_concepts": [
+              "Inline functions replace calls with actual code to save overhead",
+              "Macros are simple text substitutions by the preprocessor"
+            ],
+            "tags": [
+              "Inline Functions",
+              "Macros"
+            ]
+          },
+          {
+            "name": "Function Overloading and Default Arguments",
+            "key_concepts": [
+              "Function overloading uses same name with different signatures",
+              "Default arguments are used if the caller doesn't provide them",
+              "Compiler uses name mangling to distinguish overloaded functions"
+            ],
+            "tags": [
+              "Function Overloading",
+              "Default Arguments",
+              "Name Mangling"
+            ]
+          },
+          {
+            "name": "Scope, Lifetime, and Recursion",
+            "key_concepts": [
+              "Local variables exist within the block they are declared in",
+              "Recursive function calls push frames onto the system stack, risking stack overflow"
+            ],
+            "tags": [
+              "Scope",
+              "Lifetime",
+              "Recursion",
+              "Stack"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Objects, Classes & Inheritance",
+        "subtopics": [
+          {
+            "name": "Classes and Objects",
+            "key_concepts": [
+              "Class is a logical blueprint, object is a physical instance",
+              "Access modifiers include private and public for data hiding"
+            ],
+            "tags": [
+              "Class",
+              "Object",
+              "Access Modifiers"
+            ]
+          },
+          {
+            "name": "Static Members and Special Member Functions",
+            "key_concepts": [
+              "Static data members are shared, static functions only access static data",
+              "Constructors initialize objects (default, parameterized, copy)",
+              "Destructors deallocate resources when objects go out of scope"
+            ],
+            "tags": [
+              "Static Members",
+              "Constructors",
+              "Destructors"
+            ]
+          },
+          {
+            "name": "Operator Overloading and Friend Functions",
+            "key_concepts": [
+              "Operator overloading gives special meaning to operators for user-defined classes",
+              "Friend functions are non-member functions allowed to access private data"
+            ],
+            "tags": [
+              "Operator Overloading",
+              "Friend Function"
+            ]
+          },
+          {
+            "name": "Inheritance Types and Special Cases",
+            "key_concepts": [
+              "Inheritance types include single, multiple, multilevel, and hierarchical",
+              "Virtual base classes resolve the Diamond Problem in hybrid inheritance",
+              "Protected access modifiers allow access to derived classes"
+            ],
+            "tags": [
+              "Inheritance",
+              "Virtual Base Class",
+              "Diamond Problem"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Polymorphism, Templates & Exceptions",
+        "subtopics": [
+          {
+            "name": "Compile-time vs Runtime Polymorphism",
+            "key_concepts": [
+              "Compile-time polymorphism is resolved via overloading during compilation",
+              "Runtime polymorphism is resolved via virtual functions during execution",
+              "Early binding vs late binding"
+            ],
+            "tags": [
+              "Polymorphism",
+              "Virtual Functions",
+              "Binding"
+            ]
+          },
+          {
+            "name": "Pointers and Virtual Functions",
+            "key_concepts": [
+              "this pointer holds the address of the current object",
+              "Pointers to objects use the -> operator",
+              "Virtual functions ensure correct function calls via VTABs",
+              "Pure virtual functions create abstract classes"
+            ],
+            "tags": [
+              "this pointer",
+              "Virtual Table",
+              "Pure Virtual Function"
+            ]
+          },
+          {
+            "name": "Exception Handling and Templates",
+            "key_concepts": [
+              "Exception handling uses try, catch, and throw blocks with multiple catches",
+              "Templates allow generic programming for functions and classes"
+            ],
+            "tags": [
+              "Exception Handling",
+              "Templates",
+              "Generic Programming"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
